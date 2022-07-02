@@ -48,7 +48,9 @@ export default function Home(props: PageProps<Todo[]>) {
 
       <form class={tw`form`} action="/" method="POST">
         <input
+          style={{ backgroundColor: " #e1e1e1" }}
           class={tw`focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300`}
+          placeholder="new todo"
           type="text"
           name="item"
         />
